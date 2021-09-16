@@ -19,6 +19,10 @@ tr {
 	vertical-align: top;
 }
 
+td:nth-child(even) {
+    padding-right: 50px;
+}
+
 /*
 	STRUCTURE
 */
@@ -31,6 +35,11 @@ tr {
 	TYPOGRAPHY
 */
 p { font-size: 1.2em; margin: 0 0 15px 0; }
+s { display:block; font-size: 1.2em; margin: 0 0 15px 0; text-decoration:none; }
+.highlight {
+    background-color: #eee8d5;
+}
+
 h1 { font-size: 3.1em;
      letter-spacing: -1px; color: #d33682; }
 h2 { font-size: 2.1em;
